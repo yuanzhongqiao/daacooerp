@@ -34,7 +34,7 @@ This is a system by Daacoo
 
 1. **Clone the Project**  
 ```bash  
-git clone <your-repo-url>  
+git clone https://github.com/yuanzhongqiao/daacooerp.git
 cd daacooerp  
 ```  
 
