@@ -1,0 +1,253 @@
+// 全局样式优化
+@use "sass:color";
+
+// 基础变量
+$primary-color: #1890ff;
+$success-color: #52c41a;
+$warning-color: #faad14;
+$error-color: #f5222d;
+$font-size-base: 14px;
+$heading-color: rgba(0, 0, 0, 0.85);
+$text-color: rgba(0, 0, 0, 0.65);
+$text-color-secondary: rgba(0, 0, 0, 0.45);
+$disabled-color: rgba(0, 0, 0, 0.25);
+$border-radius-base: 4px;
+$border-color-base: #d9d9d9;
+$box-shadow-base: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+// 全局样式重置
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  font-size: $font-size-base;
+  line-height: 1.5;
+  color: $text-color;
+  background-color: #f0f2f5;
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+// 卡片样式优化
+.el-card {
+  border-radius: $border-radius-base;
+  border: none;
+  margin-bottom: 16px;
+  transition: all 0.3s;
+  box-shadow: $box-shadow-base;
+  
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .el-card__header {
+    padding: 16px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    font-weight: 500;
+  }
+  
+  .el-card__body {
+    padding: 20px;
+  }
+}
+
+// 表格样式优化
+.el-table {
+  border-radius: $border-radius-base;
+  overflow: hidden;
+  
+  th.el-table__cell {
+    background-color: #fafafa;
+    font-weight: 500;
+    color: $heading-color;
+  }
+  
+  .el-table__row {
+    transition: all 0.3s;
+    
+    &:hover {
+      background-color: #e6f7ff !important;
+    }
+  }
+}
+
+// 按钮样式优化
+.el-button {
+  border-radius: $border-radius-base;
+  transition: all 0.3s;
+  
+  &--primary {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    
+    &:hover, &:focus {
+      background-color: color.adjust($primary-color, $lightness: 10%);
+      border-color: color.adjust($primary-color, $lightness: 10%);
+    }
+  }
+  
+  &--success {
+    background-color: $success-color;
+    border-color: $success-color;
+    
+    &:hover, &:focus {
+      background-color: color.adjust($success-color, $lightness: 10%);
+      border-color: color.adjust($success-color, $lightness: 10%);
+    }
+  }
+  
+  &--danger {
+    background-color: $error-color;
+    border-color: $error-color;
+    
+    &:hover, &:focus {
+      background-color: color.adjust($error-color, $lightness: 10%);
+      border-color: color.adjust($error-color, $lightness: 10%);
+    }
+  }
+}
+
+// 表单样式优化
+.el-form {
+  .el-form-item__label {
+    font-weight: 500;
+    color: $heading-color;
+  }
+  
+  .el-input__inner {
+    border-radius: $border-radius-base;
+    transition: all 0.3s;
+    
+    &:hover {
+      border-color: color.adjust($primary-color, $lightness: 10%);
+    }
+    
+    &:focus {
+      border-color: $primary-color;
+      box-shadow: 0 0 0 2px rgba($primary-color, 0.2);
+    }
+  }
+  
+  // 修复中文输入法问题
+  .el-input__wrapper {
+    padding: 1px 11px;
+    box-shadow: 0 0 0 1px $border-color-base inset !important;
+    
+    &:hover {
+      box-shadow: 0 0 0 1px color.adjust($primary-color, $lightness: 10%) inset !important;
+    }
+    
+    &.is-focus {
+      box-shadow: 0 0 0 1px $primary-color inset !important;
+    }
+  }
+  
+  // 确保输入框内容正常显示
+  input {
+    ime-mode: auto !important;
+  }
+}
+
+// 加载状态样式
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+// 响应式布局辅助类
+.responsive-container {
+  width: 100%;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+  
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+  
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+  
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+}
+
+// 页面容器样式
+.page-container {
+  padding: 24px;
+  background-color: #fff;
+  border-radius: $border-radius-base;
+  min-height: calc(100vh - 130px);
+}
+
+// 数据展示卡片样式
+.data-card {
+  .data-value {
+    font-size: 24px;
+    font-weight: 500;
+    color: $heading-color;
+    margin-bottom: 8px;
+  }
+  
+  .data-label {
+    font-size: 14px;
+    color: $text-color-secondary;
+  }
+  
+  .data-icon {
+    font-size: 48px;
+    color: rgba($primary-color, 0.2);
+    position: absolute;
+    right: 24px;
+    top: 24px;
+  }
+}
+
+// 动画效果
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+// 空状态样式
+.empty-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 0;
+  color: $text-color-secondary;
+  
+  .empty-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+  
+  .empty-text {
+    font-size: 14px;
+  }
+}

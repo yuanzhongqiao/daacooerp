@@ -1,0 +1,8 @@
+com\daacooerp\erp\service\InventoryServiceTest.class
+com\daacooerp\erp\controller\InventoryControllerTest.class
+com\daacooerp\erp\controller\OrderControllerTest.class
+com\daacooerp\erp\controller\AuthControllerTest.class
+com\daacooerp\erp\config\TestConfig$1.class
+com\daacooerp\erp\service\UserServiceTest.class
+com\daacooerp\erp\service\OrderServiceTest.class
+com\daacooerp\erp\config\TestConfig.class
