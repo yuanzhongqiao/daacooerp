@@ -4,7 +4,11 @@ www.daacoo.com
 
 > A modern ERP system with AI natural language interaction by DaaCoo  
 
-Developed based on Vue 3 + Spring Boot, integrated with DeepSeek AI, allowing you to create orders using natural language.  
+Developed based on DaaCoo, integrated with DeepSeek AI, allowing you to create orders using natural language.  
+
+# DaaCoo is the Platform
+
+This is a system by Daacoo
 
 ## ✨ Core Features  
 
