@@ -1,6 +1,5 @@
 # DaaCoo ERP System  
 [中文](https://github.com/yuanzhongqiao/daacooerp/blob/main/README-cn.md)
-www.daacoo.com  
 
 > A modern ERP system with AI natural language interaction by DaaCoo  
 
@@ -8,7 +7,10 @@ Developed based on DaaCoo, integrated with DeepSeek AI, allowing you to create o
 
 # DaaCoo is the Platform
 
-This is a system by Daacoo
+This is a system by Daacoo The LowCode  LLM-naitve-Platform for Enterpise Application
+
+www.daacoo.com  
+
 
 ## ✨ DaaCooERP Core Features  
 
