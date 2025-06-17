@@ -188,6 +188,8 @@ A: Check the MySQL service status and configuration information.
 
 This project follows the PKU (LICENSE) open source license.  
 
+[PKU (LICENSE) open source license](https://www.gitpp.com/pkuLicense/pku-open-source-license)
+
 ## 📧 Contact Us  
 
 - Email: 274288672@qq.com  
