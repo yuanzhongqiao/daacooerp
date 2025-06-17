@@ -1,12 +1,18 @@
 # DaaCoo ERP System  
-
-www.daacoo.com  
+[中文](https://github.com/yuanzhongqiao/daacooerp/blob/main/README-cn.md)
 
 > A modern ERP system with AI natural language interaction by DaaCoo  
 
-Developed based on Vue 3 + Spring Boot, integrated with DeepSeek AI, allowing you to create orders using natural language.  
+Developed based on DaaCoo, integrated with DeepSeek AI, allowing you to create orders using natural language.  
 
-## ✨ Core Features  
+# DaaCoo is the Platform
+
+This is a system by Daacoo The LowCode  LLM-naitve-Platform for Enterpise Application
+
+www.daacoo.com  
+
+
+## ✨ DaaCooERP Core Features  
 
 🤖 **AI-Powered Order Creation** - Create orders by speaking naturally:  
 "Purchase 20 mice from JD.com at 50 yuan each"  
@@ -30,7 +36,7 @@ Developed based on Vue 3 + Spring Boot, integrated with DeepSeek AI, allowing yo
 
 1. **Clone the Project**  
 ```bash  
-git clone <your-repo-url>  
+git clone https://github.com/yuanzhongqiao/daacooerp.git
 cd daacooerp  
 ```  
 
@@ -61,6 +67,11 @@ Config in the VUE
 Config in the Spring Boot
 - Backend: http://localhost:8081  
 
+6. **Defalut Admin User**
+   
+user amidn   pw   'admin123' 
+in SQL file
+   
 ## 🎯 AI Functionality Demo  
 
 ### Create Purchase Orders  
@@ -181,6 +192,8 @@ A: Check the MySQL service status and configuration information.
 ## 📝 Open Source License  
 
 This project follows the PKU (LICENSE) open source license.  
+
+[PKU (LICENSE) open source license](https://www.gitpp.com/pkuLicense/pku-open-source-license)
 
 ## 📧 Contact Us  
 

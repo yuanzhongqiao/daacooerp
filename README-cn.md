@@ -4,7 +4,15 @@ www.daacoo.com
 
 > 一个支持AI自然语言交互的现代化ERP系统  by DaaCoo
 
-基于Vue 3 + Spring Boot开发，集成DeepSeek AI，让您可以用自然语言创建订单。
+基于DaaCoo开发，集成DeepSeek AI，让您可以用自然语言运行 ERP。  
+
+🤖 **LLM Native ERP**
+
+## 📝 开源协议
+
+本项目遵循PKU (LICENSE) 开源协议，中国人自己的开源协议
+[PKU (LICENSE) 开源协议](https://www.gitpp.com/pkuLicense/pku-open-source-license)
+
 
 ## 📋 系统功能
 
@@ -109,7 +117,7 @@ docker-compose down
 
 1. **克隆项目**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/yuanzhongqiao/daacooerp.git
 cd daacooerp
 ```
 
@@ -136,6 +144,9 @@ npm run dev
 - 前端：http://localhost:5173
 - 后端：http://localhost:8081
 
+6. **默认管理员**
+   admin  admin123
+   在SQL文件说明
 ## 🎯 AI功能演示
 
 ### 创建采购订单
@@ -181,9 +192,7 @@ A: 检查MySQL服务状态和配置信息
 3. 提交代码
 4. 发起 Pull Request
 
-## 📝 开源协议
 
-本项目遵循PKU (LICENSE) 开源协议
 
 ## 📧 联系我们
 
