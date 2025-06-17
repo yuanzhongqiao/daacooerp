@@ -10,7 +10,7 @@ Developed based on DaaCoo, integrated with DeepSeek AI, allowing you to create o
 
 This is a system by Daacoo
 
-## ✨ Core Features  
+## ✨ DaaCooERP Core Features  
 
 🤖 **AI-Powered Order Creation** - Create orders by speaking naturally:  
 "Purchase 20 mice from JD.com at 50 yuan each"  
