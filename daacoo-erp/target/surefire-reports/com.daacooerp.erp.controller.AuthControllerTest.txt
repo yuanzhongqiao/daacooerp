@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.daacooerp.erp.controller.AuthControllerTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.69 s -- in com.daacooerp.erp.controller.AuthControllerTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.42 s -- in com.daacooerp.erp.controller.AuthControllerTest

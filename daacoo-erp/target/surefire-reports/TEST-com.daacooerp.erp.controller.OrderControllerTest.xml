@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.daacooerp.erp.controller.OrderControllerTest" time="2.715" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.daacooerp.erp.controller.OrderControllerTest" time="3.333" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CN"/>
     <property name="sun.boot.library.path" value="C:\Users\yuanz\.jdks\openjdk-22.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\yuanz\AppData\Local\Temp\surefire12531812621116870132\surefirebooter-20250616215630577_3.jar C:\Users\yuanz\AppData\Local\Temp\surefire12531812621116870132 2025-06-16T21-56-30_364-jvmRun1 surefire-20250616215630577_1tmp surefire_0-20250616215630577_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\yuanz\AppData\Local\Temp\surefire13391382280247033508\surefirebooter-20250617164607804_3.jar C:\Users\yuanz\AppData\Local\Temp\surefire13391382280247033508 2025-06-17T16-46-07_461-jvmRun1 surefire-20250617164607804_1tmp surefire_0-20250617164607804_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\daacooerp\daacoo-erp\target\test-classes;D:\daacooerp\daacoo-erp\target\classes;C:\Users\yuanz\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.4.3\spring-boot-starter-data-jpa-3.4.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\boot\spring-boot-starter\3.4.3\spring-boot-starter-3.4.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\boot\spring-boot\3.4.3\spring-boot-3.4.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.4.3\spring-boot-starter-logging-3.4.3.jar;C:\Users\yuanz\.m2\repository\ch\qos\logback\logback-classic\1.5.16\logback-classic-1.5.16.jar;C:\Users\yuanz\.m2\repository\ch\qos\logback\logback-core\1.5.16\logback-core-1.5.16.jar;C:\Users\yuanz\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar;C:\Users\yuanz\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\yuanz\.m2\repository\org\slf4j\jul-to-slf4j\2.0.16\jul-to-slf4j-2.0.16.jar;C:\Users\yuanz\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\yuanz\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.4.3\spring-boot-starter-jdbc-3.4.3.jar;C:\Users\yuanz\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\yuanz\.m2\repository\org\springframework\spring-jdbc\6.2.3\spring-jdbc-6.2.3.jar;C:\Users\yuanz\.m2\repository\org\hibernate\orm\hibernate-core\6.6.8.Final\hibernate-core-6.6.8.Final.jar;C:\Users\yuanz\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\yuanz\.m2\repository\org\jboss\logging\jboss-logging\3.6.1.Final\jboss-logging-3.6.1.Final.jar;C:\Users\yuanz\.m2\repository\org\hibernate\common\hibernate-commons-annotations\7.0.3.Final\hibernate-commons-annotations-7.0.3.Final.jar;C:\Users\yuanz\.m2\repository\io\smallrye\jandex\3.2.0\jandex-3.2.0.jar;C:\Users\yuanz\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\yuanz\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\yuanz\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\yuanz\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\yuanz\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\yuanz\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\yuanz\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\yuanz\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\yuanz\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\yuanz\.m2\repository\org\springframework\data\spring-data-jpa\3.4.3\spring-data-jpa-3.4.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\data\spring-data-commons\3.4.3\spring-data-commons-3.4.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\spring-orm\6.2.3\spring-orm-6.2.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\spring-context\6.2.3\spring-context-6.2.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\spring-tx\6.2.3\spring-tx-6.2.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\spring-beans\6.2.3\spring-beans-6.2.3.jar;C:\Users\yuanz\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\yuanz\.m2\repository\org\springframework\spring-aspects\6.2.3\spring-aspects-6.2.3.jar;C:\Users\yuanz\.m2\repository\org\aspectj\aspectjweaver\1.9.22.1\aspectjweaver-1.9.22.1.jar;C:\Users\yuanz\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.4.3\spring-boot-starter-web-3.4.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.4.3\spring-boot-starter-json-3.4.3.jar;C:\Users\yuanz\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.18.2\jackson-datatype-jdk8-2.18.2.jar;C:\Users\yuanz\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.2\jackson-datatype-jsr310-2.18.2.jar;C:\Users\yuanz\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.18.2\jackson-module-parameter-names-2.18.2.jar;C:\Users\yuanz\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.4.3\spring-boot-starter-tomcat-3.4.3.jar;C:\Users\yuanz\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.36\tomcat-embed-core-10.1.36.jar;C:\Users\yuanz\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.36\tomcat-embed-el-10.1.36.jar;C:\Users\yuanz\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.36\tomcat-embed-websocket-10.1.36.jar;C:\Users\yuanz\.m2\repository\org\springframework\spring-web\6.2.3\spring-web-6.2.3.jar;C:\Users\yuanz\.m2\repository\io\micrometer\micrometer-observation\1.14.4\micrometer-observation-1.14.4.jar;C:\Users\yuanz\.m2\repository\io\micrometer\micrometer-commons\1.14.4\micrometer-commons-1.14.4.jar;C:\Users\yuanz\.m2\repository\org\springframework\spring-webmvc\6.2.3\spring-webmvc-6.2.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\spring-expression\6.2.3\spring-expression-6.2.3.jar;C:\Users\yuanz\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\yuanz\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\yuanz\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.4.3\spring-boot-starter-test-3.4.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\boot\spring-boot-test\3.4.3\spring-boot-test-3.4.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.4.3\spring-boot-test-autoconfigure-3.4.3.jar;C:\Users\yuanz\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\yuanz\.m2\repository\net\minidev\json-smart\2.5.2\json-smart-2.5.2.jar;C:\Users\yuanz\.m2\repository\net\minidev\accessors-smart\2.5.2\accessors-smart-2.5.2.jar;C:\Users\yuanz\.m2\repository\org\ow2\asm\asm\9.7.1\asm-9.7.1.jar;C:\Users\yuanz\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;C:\Users\yuanz\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;C:\Users\yuanz\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\yuanz\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar;C:\Users\yuanz\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar;C:\Users\yuanz\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\yuanz\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar;C:\Users\yuanz\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\yuanz\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar;C:\Users\yuanz\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar;C:\Users\yuanz\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar;C:\Users\yuanz\.m2\repository\org\mockito\mockito-core\5.14.2\mockito-core-5.14.2.jar;C:\Users\yuanz\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.11\byte-buddy-agent-1.15.11.jar;C:\Users\yuanz\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\yuanz\.m2\repository\org\mockito\mockito-junit-jupiter\5.14.2\mockito-junit-jupiter-5.14.2.jar;C:\Users\yuanz\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;C:\Users\yuanz\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\yuanz\.m2\repository\org\springframework\spring-core\6.2.3\spring-core-6.2.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\spring-jcl\6.2.3\spring-jcl-6.2.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\spring-test\6.2.3\spring-test-6.2.3.jar;C:\Users\yuanz\.m2\repository\org\xmlunit\xmlunit-core\2.10.0\xmlunit-core-2.10.0.jar;C:\Users\yuanz\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.4.3\spring-boot-starter-security-3.4.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\spring-aop\6.2.3\spring-aop-6.2.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\security\spring-security-config\6.4.3\spring-security-config-6.4.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\security\spring-security-core\6.4.3\spring-security-core-6.4.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\security\spring-security-crypto\6.4.3\spring-security-crypto-6.4.3.jar;C:\Users\yuanz\.m2\repository\org\springframework\security\spring-security-web\6.4.3\spring-security-web-6.4.3.jar;C:\Users\yuanz\.m2\repository\io\jsonwebtoken\jjwt-api\0.11.5\jjwt-api-0.11.5.jar;C:\Users\yuanz\.m2\repository\io\jsonwebtoken\jjwt-impl\0.11.5\jjwt-impl-0.11.5.jar;C:\Users\yuanz\.m2\repository\io\jsonwebtoken\jjwt-jackson\0.11.5\jjwt-jackson-0.11.5.jar;C:\Users\yuanz\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.1\jakarta.xml.bind-api-4.0.1.jar;C:\Users\yuanz\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\yuanz\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\yuanz\.m2\repository\com\baomidou\mybatis-plus-spring-boot3-starter\3.5.10.1\mybatis-plus-spring-boot3-starter-3.5.10.1.jar;C:\Users\yuanz\.m2\repository\com\baomidou\mybatis-plus\3.5.10.1\mybatis-plus-3.5.10.1.jar;C:\Users\yuanz\.m2\repository\com\baomidou\mybatis-plus-core\3.5.10.1\mybatis-plus-core-3.5.10.1.jar;C:\Users\yuanz\.m2\repository\com\baomidou\mybatis-plus-annotation\3.5.10.1\mybatis-plus-annotation-3.5.10.1.jar;C:\Users\yuanz\.m2\repository\com\baomidou\mybatis-plus-spring\3.5.10.1\mybatis-plus-spring-3.5.10.1.jar;C:\Users\yuanz\.m2\repository\org\mybatis\mybatis\3.5.19\mybatis-3.5.19.jar;C:\Users\yuanz\.m2\repository\org\mybatis\mybatis-spring\3.0.4\mybatis-spring-3.0.4.jar;C:\Users\yuanz\.m2\repository\com\baomidou\mybatis-plus-spring-boot-autoconfigure\3.5.10.1\mybatis-plus-spring-boot-autoconfigure-3.5.10.1.jar;C:\Users\yuanz\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.4.3\spring-boot-autoconfigure-3.4.3.jar;C:\Users\yuanz\.m2\repository\com\baomidou\mybatis-plus-jsqlparser\3.5.10.1\mybatis-plus-jsqlparser-3.5.10.1.jar;C:\Users\yuanz\.m2\repository\com\github\jsqlparser\jsqlparser\5.1\jsqlparser-5.1.jar;C:\Users\yuanz\.m2\repository\com\baomidou\mybatis-plus-jsqlparser-common\3.5.10.1\mybatis-plus-jsqlparser-common-3.5.10.1.jar;C:\Users\yuanz\.m2\repository\com\baomidou\mybatis-plus-extension\3.5.10.1\mybatis-plus-extension-3.5.10.1.jar;C:\Users\yuanz\.m2\repository\cn\hutool\hutool-all\5.8.26\hutool-all-5.8.26.jar;C:\Users\yuanz\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\yuanz\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\yuanz\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\yuanz\.m2\repository\com\squareup\okhttp3\okhttp\4.12.0\okhttp-4.12.0.jar;C:\Users\yuanz\.m2\repository\com\squareup\okio\okio\3.6.0\okio-3.6.0.jar;C:\Users\yuanz\.m2\repository\com\squareup\okio\okio-jvm\3.6.0\okio-jvm-3.6.0.jar;C:\Users\yuanz\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.9.25\kotlin-stdlib-common-1.9.25.jar;C:\Users\yuanz\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.9.25\kotlin-stdlib-jdk8-1.9.25.jar;C:\Users\yuanz\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.9.25\kotlin-stdlib-1.9.25.jar;C:\Users\yuanz\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\yuanz\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.9.25\kotlin-stdlib-jdk7-1.9.25.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\yuanz\AppData\Local\Temp\surefire12531812621116870132\surefirebooter-20250616215630577_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\yuanz\AppData\Local\Temp\surefire13391382280247033508\surefirebooter-20250617164607804_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.1+8-16"/>
@@ -53,7 +53,7 @@
     <property name="user.dir" value="D:\daacooerp\daacoo-erp"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="23364"/>
+    <property name="PID" value="1388"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
     <property name="native.encoding" value="GBK"/>
@@ -65,9 +65,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testDeleteOrder" classname="com.daacooerp.erp.controller.OrderControllerTest" time="0.019">
-    <system-out><![CDATA[2025-06-16T21:56:48.196+08:00  INFO 23364 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.daacooerp.erp.controller.OrderControllerTest]: OrderControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2025-06-16T21:56:48.202+08:00  INFO 23364 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.daacooerp.erp.DaacooErpApplication for test class com.daacooerp.erp.controller.OrderControllerTest
+  <testcase name="testDeleteOrder" classname="com.daacooerp.erp.controller.OrderControllerTest" time="0.021">
+    <system-out><![CDATA[2025-06-17T16:46:31.711+08:00  INFO 1388 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.daacooerp.erp.controller.OrderControllerTest]: OrderControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-06-17T16:46:31.722+08:00  INFO 1388 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.daacooerp.erp.DaacooErpApplication for test class com.daacooerp.erp.controller.OrderControllerTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -78,20 +78,20 @@
 
  :: Spring Boot ::                (v3.4.3)
 
-2025-06-16T21:56:48.257+08:00  INFO 23364 --- [           main] c.d.erp.controller.OrderControllerTest   : Starting OrderControllerTest using Java 22.0.1 with PID 23364 (started by yuanz in D:\daacooerp\daacoo-erp)
-2025-06-16T21:56:48.257+08:00 DEBUG 23364 --- [           main] c.d.erp.controller.OrderControllerTest   : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-06-16T21:56:48.257+08:00  INFO 23364 --- [           main] c.d.erp.controller.OrderControllerTest   : The following 1 profile is active: "test"
-2025-06-16T21:56:48.554+08:00  INFO 23364 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-06-16T21:56:48.584+08:00  INFO 23364 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 7 JPA repository interfaces.
-2025-06-16T21:56:48.624+08:00  WARN 23364 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.daacooerp.erp]' package. Please check your configuration.
-2025-06-16T21:56:48.749+08:00  INFO 23364 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-06-16T21:56:48.751+08:00  INFO 23364 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-06-16T21:56:48.762+08:00  INFO 23364 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-06-16T21:56:48.764+08:00  INFO 23364 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
-2025-06-16T21:56:49.254+08:00  INFO 23364 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1eba80c9
-2025-06-16T21:56:49.255+08:00  INFO 23364 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
-2025-06-16T21:56:49.298+08:00  WARN 23364 --- [           main] org.hibernate.dialect.Dialect            : HHH000511: The 5.7.44 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2025-06-16T21:56:49.300+08:00  INFO 23364 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-06-17T16:46:31.779+08:00  INFO 1388 --- [           main] c.d.erp.controller.OrderControllerTest   : Starting OrderControllerTest using Java 22.0.1 with PID 1388 (started by yuanz in D:\daacooerp\daacoo-erp)
+2025-06-17T16:46:31.779+08:00 DEBUG 1388 --- [           main] c.d.erp.controller.OrderControllerTest   : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-06-17T16:46:31.779+08:00  INFO 1388 --- [           main] c.d.erp.controller.OrderControllerTest   : The following 1 profile is active: "test"
+2025-06-17T16:46:32.242+08:00  INFO 1388 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-17T16:46:32.293+08:00  INFO 1388 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 7 JPA repository interfaces.
+2025-06-17T16:46:32.371+08:00  WARN 1388 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.daacooerp.erp]' package. Please check your configuration.
+2025-06-17T16:46:32.588+08:00  INFO 1388 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-17T16:46:32.591+08:00  INFO 1388 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-17T16:46:32.609+08:00  INFO 1388 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-17T16:46:32.612+08:00  INFO 1388 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-06-17T16:46:33.113+08:00  INFO 1388 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77615884
+2025-06-17T16:46:33.113+08:00  INFO 1388 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-06-17T16:46:33.156+08:00  WARN 1388 --- [           main] org.hibernate.dialect.Dialect            : HHH000511: The 5.7.44 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-06-17T16:46:33.157+08:00  INFO 1388 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
 	Database driver: undefined/unknown
 	Database version: 5.7.44
@@ -99,27 +99,27 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-06-16T21:56:49.469+08:00  INFO 23364 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-17T16:46:33.396+08:00  INFO 1388 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 Hibernate: alter table staff modify column status VARCHAR(20) DEFAULT '在职'
 Hibernate: alter table users modify column role VARCHAR(20) DEFAULT 'user'
-2025-06-16T21:56:50.492+08:00  INFO 23364 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-06-16T21:56:50.595+08:00  WARN 23364 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-06-16T21:56:50.602+08:00  WARN 23364 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+2025-06-17T16:46:34.457+08:00  INFO 1388 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-17T16:46:34.579+08:00  WARN 1388 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-17T16:46:34.592+08:00  WARN 1388 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: 43fd7028-2b50-47a6-8654-cde387a707bc
+Using generated security password: 207f1fe0-9433-4460-a85d-3cdc023458e5
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2025-06-16T21:56:50.603+08:00  INFO 23364 --- [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-06-16T21:56:50.670+08:00 DEBUG 23364 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-17T16:46:34.593+08:00  INFO 1388 --- [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-06-17T16:46:34.694+08:00 DEBUG 1388 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
  _ _   |_  _ _|_. ___ _ |    _ 
 | | |\/|_)(_| | |_\  |_)||_|_\ 
      /               |         
                         3.5.10.1 
-2025-06-16T21:56:50.796+08:00  INFO 23364 --- [           main] c.d.erp.controller.OrderControllerTest   : Started OrderControllerTest in 2.59 seconds (process running for 19.955)
-2025-06-16T21:56:50.805+08:00  INFO 23364 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-06-16T21:56:50.805+08:00  INFO 23364 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-06-16T21:56:50.806+08:00  INFO 23364 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-06-17T16:46:34.892+08:00  INFO 1388 --- [           main] c.d.erp.controller.OrderControllerTest   : Started OrderControllerTest in 3.164 seconds (process running for 26.716)
+2025-06-17T16:46:34.903+08:00  INFO 1388 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-06-17T16:46:34.903+08:00  INFO 1388 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-06-17T16:46:34.904+08:00  INFO 1388 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
 🔒 JWT拦截器处理请求: DELETE /api/customer-order/1
 🎫 请求头中的Authorization: Bearer valid-token...
 🔑 提取的实际token长度: 11
@@ -130,10 +130,10 @@ This generated password is for development use only. Your security configuration
 ✅ JWT认证成功，允许访问
 ]]></system-out>
   </testcase>
-  <testcase name="testConfirmOrder" classname="com.daacooerp.erp.controller.OrderControllerTest" time="0.017">
-    <system-out><![CDATA[2025-06-16T21:56:50.823+08:00  INFO 23364 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-06-16T21:56:50.823+08:00  INFO 23364 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-06-16T21:56:50.826+08:00  INFO 23364 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+  <testcase name="testConfirmOrder" classname="com.daacooerp.erp.controller.OrderControllerTest" time="0.022">
+    <system-out><![CDATA[2025-06-17T16:46:34.922+08:00  INFO 1388 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-06-17T16:46:34.923+08:00  INFO 1388 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-06-17T16:46:34.924+08:00  INFO 1388 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
 🔒 JWT拦截器处理请求: POST /api/customer-order/1/confirm
 🎫 请求头中的Authorization: Bearer valid-token...
 🔑 提取的实际token长度: 11
@@ -144,10 +144,10 @@ This generated password is for development use only. Your security configuration
 ✅ JWT认证成功，允许访问
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateOrder" classname="com.daacooerp.erp.controller.OrderControllerTest" time="0.024">
-    <system-out><![CDATA[2025-06-16T21:56:50.843+08:00  INFO 23364 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-06-16T21:56:50.843+08:00  INFO 23364 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-06-16T21:56:50.844+08:00  INFO 23364 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+  <testcase name="testCreateOrder" classname="com.daacooerp.erp.controller.OrderControllerTest" time="0.034">
+    <system-out><![CDATA[2025-06-17T16:46:34.945+08:00  INFO 1388 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-06-17T16:46:34.946+08:00  INFO 1388 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-06-17T16:46:34.947+08:00  INFO 1388 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
 🔒 JWT拦截器处理请求: POST /api/customer-order
 🎫 请求头中的Authorization: Bearer valid-token...
 🔑 提取的实际token长度: 11
@@ -156,17 +156,17 @@ This generated password is for development use only. Your security configuration
 🔍 数据库中查找用户结果: 找到
 👤 用户状态: 活跃
 ✅ JWT认证成功，允许访问
-2025-06-16T21:56:50.860+08:00  INFO 23364 --- [           main] c.d.erp.controller.OrderController       : 接收到订单创建请求，前端type: customer, orderType: null
-2025-06-16T21:56:50.860+08:00  INFO 23364 --- [           main] c.d.erp.controller.OrderController       : 商品 0 - 名称: null, 数量: 2, 单价: 100.0, 总价: 200.0
-2025-06-16T21:56:50.860+08:00  INFO 23364 --- [           main] c.d.erp.controller.OrderController       : 设置销售订单类型: SALE
-2025-06-16T21:56:50.860+08:00  INFO 23364 --- [           main] c.d.erp.controller.OrderController       : 最终订单类型 - type: customer, orderType: SALE
-2025-06-16T21:56:50.860+08:00  INFO 23364 --- [           main] c.d.erp.controller.OrderController       : 订单创建成功: ID=1, orderType=SALE
+2025-06-17T16:46:34.972+08:00  INFO 1388 --- [           main] c.d.erp.controller.OrderController       : 接收到订单创建请求，前端type: customer, orderType: null
+2025-06-17T16:46:34.972+08:00  INFO 1388 --- [           main] c.d.erp.controller.OrderController       : 商品 0 - 名称: null, 数量: 2, 单价: 100.0, 总价: 200.0
+2025-06-17T16:46:34.972+08:00  INFO 1388 --- [           main] c.d.erp.controller.OrderController       : 设置销售订单类型: SALE
+2025-06-17T16:46:34.972+08:00  INFO 1388 --- [           main] c.d.erp.controller.OrderController       : 最终订单类型 - type: customer, orderType: SALE
+2025-06-17T16:46:34.973+08:00  INFO 1388 --- [           main] c.d.erp.controller.OrderController       : 订单创建成功: ID=1, orderType=SALE
 ]]></system-out>
   </testcase>
-  <testcase name="testGetOrderDetail" classname="com.daacooerp.erp.controller.OrderControllerTest" time="0.014">
-    <system-out><![CDATA[2025-06-16T21:56:50.867+08:00  INFO 23364 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-06-16T21:56:50.867+08:00  INFO 23364 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-06-16T21:56:50.868+08:00  INFO 23364 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+  <testcase name="testGetOrderDetail" classname="com.daacooerp.erp.controller.OrderControllerTest" time="0.02">
+    <system-out><![CDATA[2025-06-17T16:46:34.982+08:00  INFO 1388 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-06-17T16:46:34.982+08:00  INFO 1388 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-06-17T16:46:34.983+08:00  INFO 1388 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
 🔒 JWT拦截器处理请求: GET /api/customer-order/1
 🎫 请求头中的Authorization: Bearer valid-token...
 🔑 提取的实际token长度: 11
@@ -175,14 +175,14 @@ This generated password is for development use only. Your security configuration
 🔍 数据库中查找用户结果: 找到
 👤 用户状态: 活跃
 ✅ JWT认证成功，允许访问
-2025-06-16T21:56:50.870+08:00  INFO 23364 --- [           main] c.d.erp.controller.OrderController       : 获取订单详情: id=1
-2025-06-16T21:56:50.871+08:00  INFO 23364 --- [           main] c.d.erp.controller.OrderController       : 成功获取订单详情: ID=1, 商品数量=1
+2025-06-17T16:46:34.987+08:00  INFO 1388 --- [           main] c.d.erp.controller.OrderController       : 获取订单详情: id=1
+2025-06-17T16:46:34.987+08:00  INFO 1388 --- [           main] c.d.erp.controller.OrderController       : 成功获取订单详情: ID=1, 商品数量=1
 ]]></system-out>
   </testcase>
-  <testcase name="testGetOrderList" classname="com.daacooerp.erp.controller.OrderControllerTest" time="0.016">
-    <system-out><![CDATA[2025-06-16T21:56:50.883+08:00  INFO 23364 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-06-16T21:56:50.883+08:00  INFO 23364 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-06-16T21:56:50.883+08:00  INFO 23364 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+  <testcase name="testGetOrderList" classname="com.daacooerp.erp.controller.OrderControllerTest" time="0.021">
+    <system-out><![CDATA[2025-06-17T16:46:35.005+08:00  INFO 1388 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-06-17T16:46:35.005+08:00  INFO 1388 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-06-17T16:46:35.006+08:00  INFO 1388 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
 🔒 JWT拦截器处理请求: GET /api/customer-order/list
 🎫 请求头中的Authorization: Bearer valid-token...
 🔑 提取的实际token长度: 11
@@ -191,18 +191,18 @@ This generated password is for development use only. Your security configuration
 🔍 数据库中查找用户结果: 找到
 👤 用户状态: 活跃
 ✅ JWT认证成功，允许访问
-2025-06-16T21:56:50.888+08:00  INFO 23364 --- [           main] c.d.erp.controller.OrderController       : 接收到获取订单列表请求: page=0, size=10
-2025-06-16T21:56:50.888+08:00  INFO 23364 --- [           main] c.d.erp.controller.OrderController       : 成功返回订单列表，总数: 1, 当前页数量: 1
-2025-06-16T21:56:50.890+08:00  WARN 23364 --- [           main] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+2025-06-17T16:46:35.010+08:00  INFO 1388 --- [           main] c.d.erp.controller.OrderController       : 接收到获取订单列表请求: page=0, size=10
+2025-06-17T16:46:35.010+08:00  INFO 1388 --- [           main] c.d.erp.controller.OrderController       : 成功返回订单列表，总数: 1, 当前页数量: 1
+2025-06-17T16:46:35.013+08:00  WARN 1388 --- [           main] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
 	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
 	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
 
 ]]></system-out>
   </testcase>
-  <testcase name="testGetOrdersByType" classname="com.daacooerp.erp.controller.OrderControllerTest" time="0.011">
-    <system-out><![CDATA[2025-06-16T21:56:50.900+08:00  INFO 23364 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-06-16T21:56:50.900+08:00  INFO 23364 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-06-16T21:56:50.900+08:00  INFO 23364 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+  <testcase name="testGetOrdersByType" classname="com.daacooerp.erp.controller.OrderControllerTest" time="0.015">
+    <system-out><![CDATA[2025-06-17T16:46:35.027+08:00  INFO 1388 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-06-17T16:46:35.027+08:00  INFO 1388 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-06-17T16:46:35.028+08:00  INFO 1388 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
 🔒 JWT拦截器处理请求: GET /api/customer-order/type/customer
 🎫 请求头中的Authorization: Bearer valid-token...
 🔑 提取的实际token长度: 11
@@ -211,8 +211,8 @@ This generated password is for development use only. Your security configuration
 🔍 数据库中查找用户结果: 找到
 👤 用户状态: 活跃
 ✅ JWT认证成功，允许访问
-2025-06-16T21:56:50.904+08:00  INFO 23364 --- [           main] c.d.erp.controller.OrderController       : 接收到获取特定类型订单的请求: type=customer, page=0, size=10
-2025-06-16T21:56:50.904+08:00  INFO 23364 --- [           main] c.d.erp.controller.OrderController       : 成功返回customer类型订单列表，总数: 1, 当前页数量: 1
+2025-06-17T16:46:35.034+08:00  INFO 1388 --- [           main] c.d.erp.controller.OrderController       : 接收到获取特定类型订单的请求: type=customer, page=0, size=10
+2025-06-17T16:46:35.035+08:00  INFO 1388 --- [           main] c.d.erp.controller.OrderController       : 成功返回customer类型订单列表，总数: 1, 当前页数量: 1
 ]]></system-out>
   </testcase>
 </testsuite>
