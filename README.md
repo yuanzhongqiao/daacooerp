@@ -1,5 +1,5 @@
 # DaaCoo ERP System  
-
+[中文](https://github.com/yuanzhongqiao/daacooerp/blob/main/README-cn.md)
 www.daacoo.com  
 
 > A modern ERP system with AI natural language interaction by DaaCoo  
