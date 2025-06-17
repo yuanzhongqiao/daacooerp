@@ -67,6 +67,11 @@ Config in the VUE
 Config in the Spring Boot
 - Backend: http://localhost:8081  
 
+6. **Defalut Admin User**
+   
+user amidn   pw   'admin123' 
+in SQL file
+   
 ## 🎯 AI Functionality Demo  
 
 ### Create Purchase Orders  
