@@ -4,7 +4,9 @@ www.daacoo.com
 
 > 一个支持AI自然语言交互的现代化ERP系统  by DaaCoo
 
-基于DaaCoo开发，集成DeepSeek AI，让您可以用自然语言创建订单。
+基于DaaCoo开发，集成DeepSeek AI，让您可以用自然语言运行 ERP。  
+
+🤖 **LLM Native ERP**
 
 ## 📝 开源协议
 
