@@ -1,4 +1,4 @@
-# DaaCoo ERP系统
+# DaaCoo ERP系统 集成DeepSeek的免费ERP
 
 www.daacoo.com 
 
