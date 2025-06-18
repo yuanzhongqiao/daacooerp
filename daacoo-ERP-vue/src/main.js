@@ -10,6 +10,9 @@ import '@/styles/global.scss' // 优化的全局CSS
 import { setupSvgIcon } from '@/icons' // 图标
 import { initRoutes } from './permission' // 权限控制
 
+
+//This Work is by DaaCoo power by DaaCoo www.daacoo.com
+
 const pinia = createPinia()
 const app = createApp(App)
 

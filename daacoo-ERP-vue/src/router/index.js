@@ -43,6 +43,20 @@ const routes = [
       }
     ]
   },
+  
+    // 控制台页面 BI正式结构
+  {
+    path: '/bi-dashboard',
+    component: Layout,
+    children: [
+      {
+        path: '',
+        name: 'BI-Dashboard',
+        component: () => import('../views/bi-dashboard/index.vue'),
+        meta: { title: '商业分析', icon: 'ChatLineRound', keepAlive: false }
+      }
+    ]
+  },
 
   // 订单管理路由
   {
@@ -93,6 +107,61 @@ const routes = [
       }
     ]
   },
+  
+  {
+    path: '/finance',
+    component: Layout,
+    redirect: '/finance/index',
+    meta: { title: '财务管理', icon: 'Money' },
+    children: [
+      {
+        path: 'index',
+        name: 'FIndex',
+        component: () => import('../views/finance/index.vue'),
+        meta: { title: '财务统计', keepAlive: true }
+      },
+      {
+        path: 'order-statistics',
+        name: 'OrderStatistics',
+        component: () => import('../views/finance/OrderStatistics.vue'),
+        meta: { title: '订单统计', keepAlive: true }
+      },
+      {
+        path: 'index',
+        name: 'FIndex',
+        component: () => import('../views/finance/index.vue'),
+        meta: { title: '外汇管理', keepAlive: true }
+      },
+    ]
+  },
+  {
+    path: '/inventory',
+    component: Layout,
+    redirect: '/inventory/index',
+    meta: { title: '库存管理', icon: 'Box' },
+    children: [
+      {
+        path: 'index',
+        name: 'IIndex',
+        component: () => import('../views/inventory/index.vue'),
+        meta: { title: '库存管理', keepAlive: true }
+      },
+      {
+        path: 'create',
+        name: 'ICreate',
+        component: () => import('../views/inventory/create.vue'),
+        meta: { title: '创建库存' }
+      },
+      {
+        path: 'edit/:id',
+        name: 'IEdit',
+        component: () => import('../views/inventory/edit.vue'),
+        meta: { title: '编辑库存', hidden: true }
+      }
+    ]
+  },
+  
+  
   {
     path: '/company',
     component: Layout,
@@ -122,52 +191,6 @@ const routes = [
         name: 'CompanyEdit',
         component: () => import('../views/company/edit.vue'),
         meta: { title: '编辑公司', hidden: true }
-      }
-    ]
-  },
-  {
-    path: '/finance',
-    component: Layout,
-    redirect: '/finance/index',
-    meta: { title: '财务管理', icon: 'Money' },
-    children: [
-      {
-        path: 'index',
-        name: 'FIndex',
-        component: () => import('../views/finance/index.vue'),
-        meta: { title: '财务统计', keepAlive: true }
-      },
-      {
-        path: 'order-statistics',
-        name: 'OrderStatistics',
-        component: () => import('../views/finance/OrderStatistics.vue'),
-        meta: { title: '订单统计', keepAlive: true }
-      }
-    ]
-  },
-  {
-    path: '/inventory',
-    component: Layout,
-    redirect: '/inventory/index',
-    meta: { title: '库存', icon: 'Box' },
-    children: [
-      {
-        path: 'index',
-        name: 'IIndex',
-        component: () => import('../views/inventory/index.vue'),
-        meta: { title: '库存管理', keepAlive: true }
-      },
-      {
-        path: 'create',
-        name: 'ICreate',
-        component: () => import('../views/inventory/create.vue'),
-        meta: { title: '创建库存' }
-      },
-      {
-        path: 'edit/:id',
-        name: 'IEdit',
-        component: () => import('../views/inventory/edit.vue'),
-        meta: { title: '编辑库存', hidden: true }
       }
     ]
   },
