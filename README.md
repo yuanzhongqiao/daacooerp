@@ -1,4 +1,4 @@
-# DaaCoo ERP System  
+# DaaCoo ERP System  LLM native ERP
 [中文](https://github.com/yuanzhongqiao/daacooerp/blob/main/README-cn.md)
 
 > A modern ERP system with AI natural language interaction by DaaCoo  
