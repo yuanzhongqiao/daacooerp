@@ -28,7 +28,7 @@
     <div class="message-area" ref="messageAreaRef">
       <div v-if="messages.length === 0" class="welcome-area">
         <div class="welcome-avatar">🤖</div>
-        <h3>您好！我是蘑菇头AI助手</h3>
+        <h3>您好！我是DaaCoo AI助手</h3>
         <p>您可以：</p>
         <ul class="feature-list">
           <li>💬 和我自然对话交流</li>
@@ -198,7 +198,7 @@ const inputRows = ref(1)
 
 // 示例指令
 const exampleCommands = ref([
-  '你好小蘑菇',
+  '你好 旺财',
   '创建销售订单',
   '创建采购订单',
   '查询本月订单',
