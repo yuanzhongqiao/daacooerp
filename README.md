@@ -1,4 +1,6 @@
-# DaaCoo ERP System  LLM native ERP
+# DaaCoo ERP System  LLM native ERP   
+#  大模型 LLM 支持，（现阶段是DeepSeek，后续可持续增加）的免费ERP
+
 [中文](https://github.com/yuanzhongqiao/daacooerp/blob/main/README-cn.md)
 
 > A modern ERP system with AI natural language interaction by DaaCoo  
